@@ -288,7 +288,7 @@ a {
 .header .heading-primary,
 .header .heading-date,
 .header .heading-venue {
-  color:  #282C35;
+  color: #282c35;
   padding: 1rem 0;
 }
 
@@ -569,7 +569,7 @@ a {
 .header .heading-date {
   font-size: 3rem;
   font-weight: 900;
-  color: #282C35;
+  color: #282c35;
   letter-spacing: -2px;
 }
 
