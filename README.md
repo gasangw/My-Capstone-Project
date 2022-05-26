@@ -2,7 +2,7 @@
 
 # Project Name
 
-> Microverse Capstone Project.
+> HTML/CSS & JavaScript capstone project - Conference page.
 
 
 ## Built With
@@ -20,8 +20,8 @@
 
 👤 **Gasangwa Thomas**
 
-- GitHub: [@githubhandle]()
-- Twitter: [@twitterhandle]()
+- GitHub: [@githubhandle](https://github.com/gasangw)
+- Twitter: [@twitterhandle](https://twitter.com/ThomasGasangwa)
 
 ## 🤝 Contributing
 
