@@ -30,7 +30,7 @@ a {
 }
 
 .nav {
-  background-color: #a4becd;
+  background-color: white;
 }
 
 .nav__container {
@@ -201,14 +201,14 @@ a {
 .header {
   width: 100%;
   height: 100vh;
-  background: linear-gradient(105deg, rgba(3, 31, 55, 0.95) 50%, rgba(164, 190, 205, 0.3) 80%), url(imgs/hero-small.jpg) no-repeat;
+  background: url(images/background.png) no-repeat;
   background-size: cover;
   background-position: left top;
 }
 
 @media (min-width: 768px) {
   .header {
-    background: linear-gradient(105deg, rgba(3, 31, 55, 0.95) 50%, rgba(164, 190, 205, 0.3) 80%), url(imgs/hero-big.jpg) no-repeat;
+    background: url(images/background.png) no-repeat;
     background-size: cover;
     background-position: left top;
   }
@@ -288,7 +288,7 @@ a {
 .header .heading-primary,
 .header .heading-date,
 .header .heading-venue {
-  color: #9dc8e1;
+  color:  #282C35;
   padding: 1rem 0;
 }
 
@@ -302,10 +302,10 @@ a {
 .header .heading-primary {
   position: relative;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 5rem;
-  font-weight: 900;
-  line-height: 1.05;
-  letter-spacing: -2px;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1.01;
+  letter-spacing: -1px;
   background-position: top right;
   color: #000;
   color: rgba(236, 82, 66, 0.6);
@@ -342,7 +342,7 @@ a {
 }
 
 .reach {
-  color: white;
+  color: black;
   font-size: 10px;
   margin-top: 30px;
   margin-left: -30px;
@@ -468,7 +468,7 @@ a {
   }
 
   .reach {
-    color: white;
+    color: #282c35;
     font-size: 13px;
     margin-top: 45px;
   }
@@ -476,6 +476,7 @@ a {
   .mail {
     text-decoration: underline;
     color: black;
+    font-weight: 800;
     margin-top: 30px;
   }
 
@@ -567,8 +568,8 @@ a {
 
 .header .heading-date {
   font-size: 3rem;
-  font-weight: 700;
-  color: #fff;
+  font-weight: 900;
+  color: #282C35;
   letter-spacing: -2px;
 }
 
@@ -585,9 +586,9 @@ a {
 }
 
 .header .heading-venue {
-  font-size: 1.4rem;
+  font-size: 16px;
+  font-weight: 600;
   display: inline-block;
-  background-color: rgba(3, 31, 55, 0.85);
   padding-left: 1rem;
   padding-right: 1rem;
   margin-top: 10px;
@@ -606,7 +607,7 @@ a {
 }
 
 .section-heading {
-  color: #272a31;
+  color: #fff;
   font-size: 3rem;
   font-weight: 300;
   text-transform: uppercase;
@@ -700,7 +701,7 @@ a {
 }
 
 .program-section {
-  background: linear-gradient(105deg, rgba(255, 255, 255, 0.4), rgba(164, 190, 205, 0.3)), url(imgs/brilliant.png);
+  background: url(images/dark\ background2.png);
   padding: 6rem 2rem;
   display: flex;
   flex-direction: column;
@@ -729,7 +730,7 @@ a {
 }
 
 .program-section .program-section__events--item {
-  background: rgba(164, 190, 205, 0.2);
+  background: rgba(143, 190, 216, 0.2);
   font-size: 2rem;
   padding: 2rem;
   display: flex;
@@ -761,6 +762,7 @@ a {
 
 .program-section .program-section__events-info {
   font-weight: 300;
+  color: #fff;
 }
 
 .speaker-section {
