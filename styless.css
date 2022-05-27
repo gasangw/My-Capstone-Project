@@ -398,33 +398,34 @@ a {
   margin-top: 60px;
   width: 100%;
   gap: 30px;
-  padding-left: 110px;
+  padding-left: 80px;
 }
 
 .see {
-  width: 250px;
-  height: 200px;
+  width: 430px;
+  height: 230px;
   background: linear-gradient(rgba(236, 82, 66, 0.7), rgba(236, 82, 66, 0.75)), url(images/imag33.jpg) no-repeat;
+  background-size: cover;
   margin-bottom: 30px;
 }
 
 .head {
-  width: 250px;
-  height: 200px;
+  width: 430px;
+  height: 230px;
   background: linear-gradient(rgba(236, 82, 66, 0.7), rgba(236, 82, 66, 0.75)), url(images/youth\ commit.jpg) no-repeat;
   margin-bottom: 30px;
 }
 
 .year {
-  margin-left: 90px;
+  margin-left: 200px;
   margin-top: 60px;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 700;
 }
 
 .summit {
-  margin-left: 10px;
-  font-size: 10px;
+  margin-left: 90px;
+  font-size: 15px;
 }
 
 @media (min-width: 768px) {
@@ -607,18 +608,27 @@ a {
 }
 
 .section-heading {
+  color: black;
+  font-size: 3rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  padding-bottom: 5rem;
+  position: relative;
+}
+
+.section-headings {
   color: #fff;
   font-size: 3rem;
-  font-weight: 300;
-  text-transform: uppercase;
-  padding-bottom: 2rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  padding-bottom: 5rem;
   position: relative;
 }
 
 .section-button {
   font-size: 1.5rem;
   margin: 2rem 0;
-  padding: 1.5rem;
+  padding: 3px 20px;
   text-transform: uppercase;
   border: none;
   background-color: #272a31;
@@ -789,9 +799,17 @@ a {
   grid-gap: 3rem;
 }
 
+.speaker-section .speakers:nth-child(2n) {
+  display: none;
+}
+
 @media (min-width: 768px) {
   .speaker-section .speakers {
     grid-template-columns: repeat(2, 32rem);
+  }
+
+  .speaker-section .speakers:nth-child(2n) {
+    display: flex;
   }
 }
 
