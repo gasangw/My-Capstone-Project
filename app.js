@@ -38,7 +38,7 @@ const speakersLists = [
     sImage: ['./images/pic.png'],
     name: 'Nduhukire Catherine',
     discipline: 'Human Resource Manager African Union.',
-    biography: ' She is a stakeholder in KCB bank, serves as well as the presidential advisor of the republic of Nigeria and one of the frontline leaders in equipping youth with the neccessary knowlwdge for developing the continent.',
+    biography: ' She is a stakeholder in KCB bank, serves as well as the presidential advisor of the republic of Nigeria and one of the frontline leaders in educating youth.',
   },
   {
     sImage: ['./images/pic.png'],

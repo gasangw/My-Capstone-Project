@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Africa Youth summit 2022</title>
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <link
       href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap"
       rel="stylesheet"/>
@@ -12,9 +11,11 @@
     <meta
       name="apple-mobile-web-app-status-bar-style"
       content="black-translucent"/>
-    
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <link rel="stylesheet" href="style.css"/>
     <link rel="stylesheet" href="about.html"/>
+ 
   </head>
   <body>
     <header class="header">
@@ -106,12 +107,14 @@
           </ul>
         </div>
       </nav>
+    </header>
 
+    <section class="intro">
       <div class="header__content">
         <div class="heading">
-          <h2 class="heading-sub">
+          <p class="heading-sub">
             "Lets Connect and Build Africa."
-          </h2>
+          </p>
           <h1 class="heading-primary">
             AFRICA YOUTH SUMMIT 2022
           </h1>
@@ -124,54 +127,63 @@
           </span>
         </div>
       </div>
-    </header>
+    </section>
 
     <section class="program-section" id="program">
       <h2 class="section-headings">Main Program</h2>
-      <div class="program-section__events">
-        <div class="program-section__events--item">
+      <hr>
+      <ul class="program-section__events">
+        <li class="program-section__events--item">
           <small class="program-section__events-icon">
-            <i class="fa fa-graduation-cap"></i>
+            <i class="fa fa-graduation-cap"><img src="images/education.png" alt="confenece"></i>
           </small>
           <h4 class="program-section__events-title">Lecture</h4>
           <p class="program-section__events-info">
             Listen to speakers from various African countries and backgrounds on Africa's Development.
           </p>
-        </div>
-        <div class="program-section__events--item">
+        </li>
+        <li class="program-section__events--item">
           <small class="program-section__events-icon">
-            <i class="fa fa-desktop"></i>
+            <i class="fa fa-cubes"><img src="images/conference.png" alt="education"></i>
           </small>
-          <h4 class="program-section__events-title">CC Exhibition</h4>
+          <h4 class="program-section__events-title">Forum</h4>
           <p class="program-section__events-info">
-            Appreciate various creations applying CC License of artists,
-            organized from Art Center Nabi.
+            Appreciate various creations applying the African licence of Arts organised by Art center. 
           </p>
-        </div>
-        <div class="program-section__events--item">
+        </li>
+        <li class="program-section__events--item">
           <small class="program-section__events-icon">
-            <i class="fa fa-bullseye"></i>
+            <i class="fa fa-desktop"><img src="images/conference.png" alt="confenece"></i>
+          </small>
+          <h4 class="program-section__events-title">Exhibition</h4>
+          <p class="program-section__events-info">
+            Have time to share your thoughts are experinces with experts for each topic.
+          </p>
+        </li>
+        <li class="program-section__events--item">
+          <small class="program-section__events-icon">
+            <i class="fa fa-bullseye"><img src="images/conference.png" alt="confenece"></i>
           </small>
           <h4 class="program-section__events-title">Workshop</h4>
           <p class="program-section__events-info">
             Try creating your own work and build on it other than
             just watching art
           </p>
-        </div>
-        <div class="program-section__events--item">
+        </li>
+        <li class="program-section__events--item">
           <small class="program-section__events-icon">
-            <i class="fa fa-cubes"></i>
+            <i class="fa fa-cubes"><img src="images/education.png" alt="confenece"></i>
           </small>
           <h4 class="program-section__events-title">Africa Rise</h4>
           <p class="program-section__events-info">
             Young people make up the bulk of Africa’s total population with an estimated 75% of the continent’s population below the age of 35. 
           </p>
-        </div>
-      </div>
+        </li>
+      </ul>
 
-     
+      <a href="#" class="section-link">SEE THE WHOLE PROGRAM</a>
+
     </section>
-
   <section class="speaker-section" id="speakers">
       <h2 class="section-heading">Featured Speakers</h2>
       <div class="speaker_container"></div>
