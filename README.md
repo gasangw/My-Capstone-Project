@@ -17,7 +17,7 @@ using variable with the data about the speakers and using it when the page loads
 
 ## Live Demo
 
-[Live Demo Link](https://gasangw.github.io/My-Capstone-Project/)
+[Live Demo Link]()
 
 
 ## Authors
