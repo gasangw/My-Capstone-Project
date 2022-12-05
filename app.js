@@ -67,17 +67,19 @@ const speakersLists = [
 ];
 
 let speakersName = '';
+let speakerImage = '';
 let speakersDiscipline = '';
 let speakersBiography = '';
 
 speakersLists.forEach((n, index) => {
   speakersName = n.name;
+  speakerImage = n.sImage;
   speakersDiscipline = n.discipline;
   speakersBiography = n.biography;
 
   const content = `<div class="speakers__speaker">
   <img
-    src="./images/pic.png"
+    src="${speakerImage}"
     alt="Cathy"
     class="speakers__speaker--photo"
   />
