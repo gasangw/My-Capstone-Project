@@ -157,8 +157,7 @@ a {
 @media (min-width: 768px) {
   .nav__menu {
     display: flex;
-    margin: 0 auto;
-    gap: 80px;
+    margin-left: auto;
   }
 
   .nav {
